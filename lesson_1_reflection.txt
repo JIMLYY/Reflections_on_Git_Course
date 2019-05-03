@@ -2,17 +2,26 @@ How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
     Fill in your answer here
+    On Mac or Linux, open the terminal and navigate to where the files are.
+    Then, we can use the command "diff -u old_file_name new_file_name" to view
+    the difference between two files. -u stands for unified diff format, which
+    is able to make the output easier to read.
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
     Fill in your answer here
+    Having easy access to the entire history of a file can allow me to make any
+    big changes I want without fear of breaking the whole project since I can
+    always go back to the previous version.
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
     Fill in your answer here
+    Pros: I can make the commit based on the logical change.
+    Cons: Doing it manually could be tedious.
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
